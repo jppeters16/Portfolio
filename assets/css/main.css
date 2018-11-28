@@ -16,6 +16,7 @@ h2 {
 h3 {
     margin-top: 25px;
     margin-bottom: 15px;
+    line-height: 40px;
 }
 p {
     font-size: 18px;
@@ -151,6 +152,28 @@ p {
 .project1-github:hover {
     background: #ACDBC9;
     color: #355C7D;
+    border-color: #ACDBC9;
+}
+.project2-deployed {
+    font-family: 'Volkhov', serif;
+    background: #E2813D;
+    color: #ACDBC9;
+    border-color: #ACDBC9;
+}
+.project2-deployed:hover {
+    color: #E2813D;
+    background: #ACDBC9;
+    border-color: #ACDBC9;
+}
+.project2-github {
+    font-family: 'Volkhov', serif;
+    background: #E2813D;
+    color: #ACDBC9;
+    border-color: #ACDBC9;
+}
+.project2-github:hover {
+    color: #E2813D;
+    background: #ACDBC9;
     border-color: #ACDBC9;
 }
 #nav-projects {
