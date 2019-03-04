@@ -1,6 +1,7 @@
-body {
+html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 h1 {
     font-family: 'Pacifico', cursive;
@@ -37,6 +38,11 @@ p {
     left: 5%;
     text-align: left;
 }
+.arrow {
+    position: relative;
+    top: 48%;
+    font-size: 40px;
+}
 .intro-description {
     color: #FFB02D;
 }
@@ -50,6 +56,18 @@ p {
     background: #ACDBC9;
     color: #355C7D;
     border-color: #ACDBC9;
+}
+.avatar {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Ewert', cursive;
+    color: #ACDBC9;
+}
+.avatar:hover {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Ewert', cursive;
+    color: #FFFFFF;
 }
 .nav {
     height: 75px;
@@ -99,6 +117,7 @@ p {
     height: 750px;
     text-align: center;
     color: #355C7D;
+    padding-bottom: 30px;
 }
 #i-can-help {
     height: 650px;
@@ -118,6 +137,7 @@ p {
 #nav-intro {
     background: url(../images/colorful\ wavy\ bg\ edit.png);
     background-size: cover;
+    height: 100%;
 }
 
 #what-i-do {
@@ -131,6 +151,11 @@ p {
 /* Projects Page */
 .projects-title {
     padding-bottom: 400px;
+}
+.project-arrow {
+    position: relative;
+    top: 2%;
+    font-size: 40px;
 }
 .project1-deployed {
     font-family: 'Volkhov', serif;
@@ -179,6 +204,11 @@ p {
 #nav-projects {
     background: url(../images/mountain-1149897.jpg);
     background-size: cover;
+    height: 100%;
+}
+.bulletpoints {
+    text-align: left;
+    margin-left: 5%;
 }
 #project1 {
     height: 1050px;
@@ -209,6 +239,9 @@ p {
     height: 750px;
     text-align: center;
     color: #ACDBC9;
+}
+.project-preview {
+margin-bottom: 10px;
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------- */
 /* Social Media */
