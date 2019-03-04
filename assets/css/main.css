@@ -13,6 +13,7 @@ h2, h3, p {
 h2 {
     font-size: 55px;
     color: #FFB02D;
+    padding-top: 35px;
 }
 h3 {
     margin-top: 25px;
@@ -38,11 +39,29 @@ p {
     left: 5%;
     text-align: left;
 }
-.arrow {
+/* intro arrows */
+.arrow-down, .arrow-up {
+    text-decoration: none;
+    color: #355C7D;
     position: relative;
-    top: 48%;
+    bottom: -400px;
     font-size: 40px;
+    scroll-behavior: smooth;
 }
+.arrow-down2, .arrow-up2 {
+    text-decoration: none;
+    color: #FFB02D;
+    position: relative;
+    bottom: 300px;
+    font-size: 40px;
+    scroll-behavior: smooth;
+}
+.arrow-up2 {
+    /* margin-left: 30px;
+    margin-right: 10px; */
+    bottom: 90%;
+}
+
 .intro-description {
     color: #FFB02D;
 }
@@ -53,9 +72,9 @@ p {
     border-color: #FFB02D;
 }
 .messageMe:hover {
-    background: #ACDBC9;
+    background: #FFB02D;
     color: #355C7D;
-    border-color: #ACDBC9;
+    border-color: #FFB02D;
 }
 .avatar {
     text-decoration: none;
@@ -129,7 +148,7 @@ p {
     /* color: #355C7D; */
 }
 #hello {
-    height: 1050px;
+    height: 100%;
     text-align: center;
     background: #355C7D;
     color: #ACDBC9;
@@ -141,7 +160,7 @@ p {
 }
 
 #what-i-do {
-    height: 1050px;
+    height: 100%;
     background: url(../images/abstract-triangle-bg-edit.png);
     background-size: cover;
     text-align: center;
@@ -164,9 +183,9 @@ p {
     border-color: #FFB02D;
 }
 .project1-deployed:hover {
-    background: #ACDBC9;
+    background: #FFB02D;
     color: #355C7D;
-    border-color: #ACDBC9;
+    border-color: #FFB02D;
 }
 .project1-github {
     font-family: 'Volkhov', serif;
@@ -175,31 +194,31 @@ p {
     border-color: #FFB02D;
 }
 .project1-github:hover {
-    background: #ACDBC9;
+    background: #FFB02D;
     color: #355C7D;
-    border-color: #ACDBC9;
+    border-color: #FFB02D;
 }
 .project2-deployed {
     font-family: 'Volkhov', serif;
-    background: #E2813D;
-    color: #ACDBC9;
-    border-color: #ACDBC9;
+    background: #31355B;
+    color: #FFB02D;
+    border-color: #FFB02D;
 }
 .project2-deployed:hover {
-    color: #E2813D;
-    background: #ACDBC9;
-    border-color: #ACDBC9;
+    color: #31355B;
+    background: #FFB02D;
+    border-color: #FFB02D;
 }
 .project2-github {
     font-family: 'Volkhov', serif;
-    background: #E2813D;
-    color: #ACDBC9;
-    border-color: #ACDBC9;
+    background: #31355B;
+    color: #FFB02D;
+    border-color: #FFB02D;
 }
 .project2-github:hover {
-    color: #E2813D;
-    background: #ACDBC9;
-    border-color: #ACDBC9;
+    color: #31355B;
+    background: #FFB02D;
+    border-color: #FFB02D;
 }
 #nav-projects {
     background: url(../images/mountain-1149897.jpg);
@@ -219,20 +238,19 @@ p {
 #project2 {
     height: 1050px;
     text-align: center;
-    background: #E2813D;
-    
+    background: #31355B;
     color: #ACDBC9;
 }
 #project3 {
     height: 1050px;
     text-align: center;
-    background: #31355B;
+    background: #355C7D;
     color: #ACDBC9;
 }
 #project4 {
     height: 1050px;
     text-align: center;
-    background: #83AE9B;
+    background: #31355B;
     color: #ACDBC9;
 }
 #projects-title {
