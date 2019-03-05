@@ -87,7 +87,7 @@ p {
     font-family: 'Volkhov', serif;
     color: #ACDBC9;
     position: absolute;
-    top: 25px;
+    bottom: 25px;
     left: 46%;
     font-size: 20px;
     scroll-behavior: smooth;
@@ -247,7 +247,7 @@ p {
     font-family: 'Volkhov', serif;
     color: #ACDBC9;
     position: absolute;
-    top: 25px;
+    bottom: 25px;
     left: 46%;
     font-size: 20px;
     scroll-behavior: smooth;
