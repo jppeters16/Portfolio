@@ -16,7 +16,7 @@ h2 {
     padding-top: 35px;
 }
 h3 {
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 15px;
     line-height: 40px;
 }
@@ -43,25 +43,61 @@ p {
 .arrow-down, .arrow-up {
     text-decoration: none;
     color: #355C7D;
-    position: relative;
-    bottom: -400px;
+    position: absolute;
+    bottom: 10px;
     font-size: 40px;
     scroll-behavior: smooth;
 }
-.arrow-down2, .arrow-up2 {
+.arrow-down2 {
+    text-decoration: none;
+    color: #ACDBC9;
+    position: absolute;
+    bottom: 10px;
+    font-size: 40px;
+    scroll-behavior: smooth;
+}
+.arrow-down2:hover, .arrow-down:hover {
+    color: #FFB02D;
+}
+/* .arrow-up2 {
+    text-decoration: none;
+    color: #ACDBC9;
+    position: absolute;
+    top: 10px;
+    font-size: 40px;
+    scroll-behavior: smooth;
+    
+}
+.arrow-up2:hover {
+    color: #FFB02D;
+} */
+.arrow-down3 {
     text-decoration: none;
     color: #FFB02D;
-    position: relative;
-    bottom: 300px;
+    position: absolute;
+    bottom: 10px;
     font-size: 40px;
     scroll-behavior: smooth;
 }
-.arrow-up2 {
-    /* margin-left: 30px;
-    margin-right: 10px; */
-    bottom: 90%;
+.arrow-down3:hover {
+    color: #355C7D;
 }
-
+.arrow-up4 {
+    text-decoration: none !important;
+    font-family: 'Volkhov', serif;
+    color: #ACDBC9;
+    position: absolute;
+    top: 25px;
+    left: 46%;
+    font-size: 20px;
+    scroll-behavior: smooth;
+    text-align: center;
+    
+    
+}
+.arrow-up4:hover {
+    color: #ACDBC9;
+}
 .intro-description {
     color: #FFB02D;
 }
@@ -81,6 +117,7 @@ p {
     font-size: 40px;
     font-family: 'Ewert', cursive;
     color: #ACDBC9;
+    transition-duration: 1s;
 }
 .avatar:hover {
     text-decoration: none;
@@ -139,10 +176,11 @@ p {
     padding-bottom: 30px;
 }
 #i-can-help {
-    height: 650px;
+    height: 85%;
     text-align: center;
     background: #355C7D;
     color: #ACDBC9;
+    position: relative;
 }
 #i-can-title {
     /* color: #355C7D; */
@@ -152,11 +190,13 @@ p {
     text-align: center;
     background: #355C7D;
     color: #ACDBC9;
+    position: relative;
 }
 #nav-intro {
     background: url(../images/colorful\ wavy\ bg\ edit.png);
     background-size: cover;
     height: 100%;
+    position: relative;
 }
 
 #what-i-do {
@@ -165,16 +205,45 @@ p {
     background-size: cover;
     text-align: center;
     color: #355C7D;
+    position: relative;
 }
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
 /* Projects Page */
+.container-projects {
+    margin: 0;
+    position: relative;
+    padding: 20px;
+}
 .projects-title {
     padding-bottom: 400px;
-}
-.project-arrow {
     position: relative;
-    top: 2%;
+}
+.arrow-down-project {
+    text-decoration: none;
+    color: #ACDBC9;
+    position: absolute;
+    bottom: 100px;
     font-size: 40px;
+    scroll-behavior: smooth;
+}
+.arrow-down-project:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+.arrow-top-project {
+    text-decoration: none !important;
+    font-family: 'Volkhov', serif;
+    color: #ACDBC9;
+    position: absolute;
+    top: 25px;
+    left: 46%;
+    font-size: 20px;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+.arrow-top-project:hover {
+    color: #ACDBC9;
 }
 .project1-deployed {
     font-family: 'Volkhov', serif;
@@ -227,34 +296,35 @@ p {
 }
 .bulletpoints {
     text-align: left;
-    margin-left: 5%;
+    margin-left: 12%;
 }
 #project1 {
-    height: 1050px;
+    height: 850px;
     text-align: center;
     background: #355C7D;
     color: #ACDBC9;
 }
 #project2 {
-    height: 1050px;
+    height: 850px;
     text-align: center;
     background: #31355B;
     color: #ACDBC9;
 }
 #project3 {
-    height: 1050px;
+    height: 850px;
     text-align: center;
     background: #355C7D;
     color: #ACDBC9;
 }
 #project4 {
-    height: 1050px;
+    height: 850px;
     text-align: center;
     background: #31355B;
     color: #ACDBC9;
 }
 #projects-title {
-    height: 750px;
+    height: 100%;
+    position: relative;
     text-align: center;
     color: #ACDBC9;
 }
