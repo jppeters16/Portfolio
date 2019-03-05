@@ -13,7 +13,7 @@ h2, h3, p {
 h2 {
     font-size: 55px;
     color: #FFB02D;
-    padding-top: 35px;
+    padding-top: 5px;
 }
 h3 {
     margin-top: 15px;
@@ -117,13 +117,16 @@ p {
     font-size: 40px;
     font-family: 'Ewert', cursive;
     color: #ACDBC9;
-    transition-duration: 1s;
+    transition-duration: .4s;
+    float: left;
+    padding-top: 10px;
+    padding-left: 30px;
 }
 .avatar:hover {
     text-decoration: none;
     font-size: 40px;
     font-family: 'Ewert', cursive;
-    color: #FFFFFF;
+    color: #FFB02D;
 }
 .nav {
     height: 75px;
@@ -131,17 +134,8 @@ p {
     background: rgba(76, 175, 80, 0);
     background-size: cover;
 }
-.navItems {
-    /* position: relative;
-    left: 45%; */
-}
-.nav-home {
-    float: left;
-    padding-top: 10px;
-    padding-left: 30px;
-}
 .nav-item {
-    float: right;
+    float: right !important;
     padding-top: 40px;
 }
 .nav-link {
@@ -214,9 +208,26 @@ p {
     position: relative;
     padding: 20px;
 }
+.avatar-project {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Ewert', cursive;
+    color: #31355B;
+    transition-duration: .4s;
+    float: left;
+    padding-top: 22px;
+    padding-left: 30px;
+}
+.avatar-project:hover {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Ewert', cursive;
+    color: #ACDBC9;
+}
 .projects-title {
     padding-bottom: 400px;
     position: relative;
+    color: #31355B;
 }
 .arrow-down-project {
     text-decoration: none;
@@ -228,7 +239,7 @@ p {
 }
 .arrow-down-project:hover {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #31355B;
     
 }
 .arrow-top-project {
@@ -245,26 +256,40 @@ p {
 .arrow-top-project:hover {
     color: #ACDBC9;
 }
+.nav-link-project {
+    display: block !important;
+    text-decoration: none !important;
+    color: #31355B;
+    font-family: 'Volkhov', serif;
+    font-size: 20px;
+    padding-left: 40px;
+}
+.nav-link-project:hover {
+    color: #ACDBC9 !important;
+    transition-duration: .3s !important;
+    /* not working on hover */
+    border-right: 30px, solid;
+}
 .project1-deployed {
     font-family: 'Volkhov', serif;
-    background: #355C7D;
+    background: #8C8CC8;
     color: #FFB02D;
     border-color: #FFB02D;
 }
 .project1-deployed:hover {
     background: #FFB02D;
-    color: #355C7D;
+    color: #8C8CC8;
     border-color: #FFB02D;
 }
 .project1-github {
     font-family: 'Volkhov', serif;
-    background: #355C7D;
+    background: #8C8CC8;
     color: #FFB02D;
     border-color: #FFB02D;
 }
 .project1-github:hover {
     background: #FFB02D;
-    color: #355C7D;
+    color: #8C8CC8;
     border-color: #FFB02D;
 }
 .project2-deployed {
@@ -290,7 +315,7 @@ p {
     border-color: #FFB02D;
 }
 #nav-projects {
-    background: url(../images/mountain-1149897.jpg);
+    background: url(../images/suspension-bridge-1149942.jpg);
     background-size: cover;
     height: 100%;
 }
@@ -301,7 +326,7 @@ p {
 #project1 {
     height: 850px;
     text-align: center;
-    background: #355C7D;
+    background: #8C8CC8;
     color: #ACDBC9;
 }
 #project2 {
@@ -313,7 +338,7 @@ p {
 #project3 {
     height: 850px;
     text-align: center;
-    background: #355C7D;
+    background: #8C8CC8;
     color: #ACDBC9;
 }
 #project4 {
@@ -331,8 +356,31 @@ p {
 .project-preview {
 margin-bottom: 10px;
 }
+#i-can-help-project {
+    height: 85%;
+    text-align: center;
+    background: #8C8CC8;
+    color: #ACDBC9;
+    position: relative;
+}
+.messageMe-project {
+    font-family: 'Volkhov', serif;
+    background: #8C8CC8;
+    color: #FFB02D;
+    border-color: #FFB02D;
+}
+.messageMe-project:hover {
+    background: #FFB02D;
+    color: #8C8CC8;
+    border-color: #FFB02D;
+}
+#footer-project {
+    padding: 20px;
+    background: #31355B;
+    color: #8C8CC8 !important;
+}
 /* ---------------------------------------------------------------------------------------------------------------------------------- */
-/* Social Media */
+/* Social Media for Main Page*/
 .social-ul{
     position: relative;
     justify-content: center;
@@ -353,9 +401,9 @@ margin-bottom: 10px;
     line-height: 50px;
     font-size: 20px;
     text-align: center;
-    background: #4B9CD3;
+    background: #4B9CD3 !important;
     text-decoration: none;
-    color: #355C7D;
+    color: #355C7D !important;
     margin: 0 10px;
     transition: .5s;
 }
@@ -367,7 +415,7 @@ margin-bottom: 10px;
 .social-ul .social-li .social-a span:nth-child(3) {
     width: 100%;
     height: 2px;
-    background: #355C7D;
+    background: #355C7D !important;
 }
 .social-ul .social-li .social-a span:nth-child(1) {
     top: 0;
@@ -396,7 +444,7 @@ margin-bottom: 10px;
 .social-ul .social-li .social-a span:nth-child(4) {
     width: 2px;
     height: 100%;
-    background: #355C7D;
+    background: #355C7D !important;
 }
 .social-ul .social-li .social-a span:nth-child(2) {
     top: 0;
@@ -417,6 +465,96 @@ margin-bottom: 10px;
     transform-origin: top;
 }
 .social-ul .social-li .social-a:hover span:nth-child(4) {
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform .5s;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+/* Social Media for Project Page */
+.social-ul-project{
+    position: relative;
+    justify-content: center;
+    /* transform: translate(-50%, -50%); */
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-ul-project .social-li-project {
+    list-style: none;
+}
+.social-ul-project .social-li-project .social-a-project {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    background: #31355B;
+    text-decoration: none;
+    color: #8C8CC8;
+    margin: 0 10px;
+    transition: .5s;
+}
+.social-ul-project .social-li-project .social-a-project span {
+    position: absolute;
+    transition: transform .5s;
+}
+.social-ul-project .social-li-project .social-a-project span:nth-child(1),
+.social-ul-project .social-li-project .social-a-project span:nth-child(3) {
+    width: 100%;
+    height: 2px;
+    background: #8C8CC8;
+}
+.social-ul-project .social-li-project .social-a-project span:nth-child(1) {
+    top: 0;
+    left: 0;
+    transform-origin: right;
+}
+.social-ul-project .social-li-project .social-a-project:hover span:nth-child(1) {
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s;
+}
+
+.social-ul-project .social-li-project .social-a-project span:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    transform-origin: left;
+}
+.social-ul-project .social-li-project .social-a-project:hover span:nth-child(3) {
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+
+
+.social-ul-project .social-li-project .social-a-project span:nth-child(2),
+.social-ul-project .social-li-project .social-a-project span:nth-child(4) {
+    width: 2px;
+    height: 100%;
+    background: #8C8CC8;
+}
+.social-ul-project .social-li-project .social-a-project span:nth-child(2) {
+    top: 0;
+    left: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+.social-ul-project .social-li-project .social-a-project:hover span:nth-child(2) {
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform .5s;
+}
+
+.social-ul-project .social-li-project .social-a-project span:nth-child(4) {
+    top: 0;
+    right: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.social-ul-project .social-li-project .social-a-project:hover span:nth-child(4) {
     transform: scaleY(1);
     transform-origin: bottom;
     transition: transform .5s;
